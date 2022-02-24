@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Supermercado+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.menu.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu.navbar-expand-md .navbar-nav .nav-link{
+    margin: 0 0 0 0px;
+}
+
+.menu ul li a{
+    font-size: 90px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.nav-link.color{
+    margin-left: 25px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: #000;
+    background: transparent;
+}
+.nav-link.color:hover{
+    color: #d28e2e
+}
+.banner-inner{
+    width: 680px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banner{
+    background-image: url(../images/banner.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.4);
+    padding: 210px 0 190px;
+}
+
+.banner-inner h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+
+.banner-inner h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    padding: 5px;
+    
+}
+
+.banner-inner h1 span{
+    color: #d28e2e
+}
+
+.banner-inner h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+    margin: 0 7 3 0px;
+}
+.About{
+text-align: center; 
+padding: 50px 50px 50px;
+background: #434141; 
+}
+
+
+
+
+.About h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #d28e2e
+    
+    
+  
+}
+.About p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white
+
+}
+.Skills{  
+    text-align: center; 
+    padding: 50px 50px 50px;
+    background: transparent; 
+}
+.Skills h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #d28e2e
+    
+  
+}
+.card-title{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #d28e2e  
+}
+.qoutes{
+    text-align: center;
+    
+}
+.qoutes h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #d28e2e
+    
+
+}
+.Projects{
+    text-align: center; 
+    padding: 50px 50px 50px;
+    background: transparent 
+    }
+    .Projects h1{
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        color: #d28e2e
+        
+      
+    }
+    .logo2{
+        padding: 0px 0px 50px;  
+    }
+    .list-group{
+        padding: 50px 50px 50px; 
+    }
+    
+    .Contact{
+    text-align: center; 
+    padding: 50px 50px 50px;
+    background: #434141;;
+
+    }
+    .Contact h1{
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        color: #d28e2e 
+    }
+    .Contact .form-label{
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color: white 
+    }
+    .social{
+        background-color:#434141;
+    }
+    .fa-facebook,
+.fa-linkedin,
+.fa-github
+{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+    
